@@ -5,6 +5,8 @@ from xadmin.layout import *
 
 from django.utils.translation import ugettext_lazy as _, ugettext
 
+style_fields = {'content': 'ueditor'}
+
 class UserSettingsAdmin(object):
     model_icon = 'fa fa-cog'
     hidden_menu = True

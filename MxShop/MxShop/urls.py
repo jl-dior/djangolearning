@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.urls import include, path, re_path
 import xadmin
+from DjangoUeditor import urls as DjangoUeditor_urls
 from MxShop.settings import MEDIA_ROOT, MEDIA_URL
 from django.conf.urls.static import static
 from django.views.static import serve
 
 urlpatterns = [
 	path('xadmin/', xadmin.site.urls),
-	# re_path('^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
+	path('ueditor', include(DjangoUeditor_urls)),
+	re_path('^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
 ] + static(MEDIA_URL, document_root=MEDIA_ROOT)
