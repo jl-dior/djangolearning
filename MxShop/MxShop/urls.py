@@ -19,9 +19,11 @@ from DjangoUeditor import urls as DjangoUeditor_urls
 from MxShop.settings import MEDIA_ROOT, MEDIA_URL
 from django.conf.urls.static import static
 from django.views.static import serve
+from goods.view_base import GoodsListView
 
 urlpatterns = [
 	path('xadmin/', xadmin.site.urls),
+	path('goods', GoodsListView.as_view(), name="goods_list"),
 	path('ueditor', include(DjangoUeditor_urls)),
 	re_path('^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
 ] + static(MEDIA_URL, document_root=MEDIA_ROOT)
