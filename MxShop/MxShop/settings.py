@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',
     'users',
     'DjangoUeditor',
     'xadmin',
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'trade',
     'user_operation',
     'crispy_forms',
+    'rest_framework',
 
 ]
 
@@ -141,3 +143,8 @@ STATICFILES_DIRS = (
 )
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 10
+}

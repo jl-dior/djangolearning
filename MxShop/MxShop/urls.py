@@ -19,11 +19,15 @@ from DjangoUeditor import urls as DjangoUeditor_urls
 from MxShop.settings import MEDIA_ROOT, MEDIA_URL
 from django.conf.urls.static import static
 from django.views.static import serve
-from goods.view_base import GoodsListView
+from goods.views import GoodsListView
+from rest_framework.documentation import include_docs_urls
+
 
 urlpatterns = [
 	path('xadmin/', xadmin.site.urls),
 	path('goods', GoodsListView.as_view(), name="goods_list"),
+	path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+	path('docs', include_docs_urls(title="jl御用")),
 	path('ueditor', include(DjangoUeditor_urls)),
 	re_path('^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
 ] + static(MEDIA_URL, document_root=MEDIA_ROOT)

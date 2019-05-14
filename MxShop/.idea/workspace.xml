@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4745619-cbe7-4b95-b61e-daec5d7ac8d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/views/website.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/views/website.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/goods/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxShop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxShop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,32 +55,33 @@
     <session id="870269435">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="713" />
+          <entry key="py" value="1405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="713" />
+          <entry key="Python" value="1405" />
         </counts>
       </usages-collector>
     </session>
@@ -86,29 +91,63 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/website.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="282">
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding>
+                <element signature="e#640#686#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../djangolearning/lib/python3.7/site-packages/django/contrib/auth/views.py">
+        <entry file="file://$PROJECT_DIR$/apps/goods/serializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1557841404928" expanded="true" signature="141:217" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../djangolearning/lib/python3.7/site-packages/rest_framework/pagination.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2704">
+              <caret line="156" column="7" lean-forward="true" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MxShop/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../djangolearning/lib/python3.7/site-packages/rest_framework/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="248" selection-start-line="248" selection-end-line="248" />
             </state>
           </provider>
         </entry>
@@ -116,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="59" column="10" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -143,6 +182,9 @@
       <find>login</find>
       <find>logout</find>
       <find>GoodsListView</find>
+      <find>GoodsPaginationGoodsPagination</find>
+      <find>page</find>
+      <find>page_size</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,11 +197,13 @@
         <option value="$PROJECT_DIR$/extra_apps/xadmin/views/list.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/views/edit.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/views/form.py" />
-        <option value="$PROJECT_DIR$/MxShop/settings.py" />
         <option value="$PROJECT_DIR$/extra_apps/DjangoUeditor/urls.py" />
-        <option value="$PROJECT_DIR$/MxShop/urls.py" />
         <option value="$PROJECT_DIR$/apps/goods/view_base.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/views/website.py" />
+        <option value="$PROJECT_DIR$/apps/goods/serializer.py" />
+        <option value="$PROJECT_DIR$/MxShop/urls.py" />
+        <option value="$PROJECT_DIR$/MxShop/settings.py" />
+        <option value="$PROJECT_DIR$/apps/goods/views.py" />
       </list>
     </option>
   </component>
@@ -169,10 +213,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="237" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="216" />
     <option name="y" value="23" />
-    <option name="width" value="1441" />
+    <option name="width" value="1238" />
     <option name="height" value="913" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -207,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,11 +259,77 @@
               <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="MxShop" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 virtualenv at ~/Desktop/djangolearning/djangolearning &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 virtualenv at ~/Desktop/djangolearning/djangolearning &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 virtualenv at ~/Desktop/djangolearning/djangolearning &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 virtualenv at ~/Desktop/djangolearning/djangolearning &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 virtualenv at ~/Desktop/djangolearning/djangolearning &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 virtualenv at ~/Desktop/djangolearning/djangolearning &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 virtualenv at ~/Desktop/djangolearning/djangolearning &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,10 +399,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="23" width="1441" height="913" extended-state="0" />
-    <editor active="true" />
+    <frame x="216" y="23" width="1238" height="913" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18799143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22324415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,7 +415,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32886723" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32886723" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31912303" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31912303" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -362,13 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxShop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -449,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/view_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../djangolearning/lib/python3.7/site-packages/django/core/serializers/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -463,26 +559,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/website.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="59" column="10" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../djangolearning/lib/python3.7/site-packages/django/contrib/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
+        <state relative-caret-position="1230">
           <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -490,10 +579,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/website.py">
+    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/view_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1557755610668" expanded="true" signature="102:107" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../djangolearning/lib/python3.7/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="259" column="51" selection-start-line="259" selection-start-column="51" selection-end-line="259" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../djangolearning/lib/python3.7/site-packages/rest_framework/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#640#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1557841404928" expanded="true" signature="141:217" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxShop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../djangolearning/lib/python3.7/site-packages/rest_framework/pagination.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2704">
+          <caret line="156" column="7" lean-forward="true" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
         </state>
       </provider>
     </entry>
